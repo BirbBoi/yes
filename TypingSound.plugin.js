@@ -1,4 +1,4 @@
-//META{"name":"Typing Sound", "website":"https://github.com/BirbBoi/yes", "source":"https://github.com/BirbBoi/yes"}*//
+//META{"name":"TypingSound", "website":"https://github.com/BirbBoi/yes", "source":"https://github.com/BirbBoi/yes"}*//
 const audioCtx = new AudioContext();
 const audio = new Audio();
 class TypingSound
