@@ -1,13 +1,12 @@
-//META{"name":"OsuTyping", "website":"https://github.com/happynger/OsuTyping", "source":"https://github.com/happynger/OsuTyping"}*//
+//META{"name":"Typing Sound", "website":"https://github.com/BirbBoi/yes", "source":"https://github.com/BirbBoi/yes"}*//
 const audioCtx = new AudioContext();
 const audio = new Audio();
-audio.src = "https://raw.githubusercontent.com/BirbBoi/yes/blob/main/key-press-1.wav";
-class OsuTyping
+class TypingSound
 {
-	getName() {return "Osu Typing";}
+	getName() {return "Typing sound plugin";}
 	getVersion() {return "1.0";}
-	getAuthor() {return "Happy Ori";}
-	getDescription() {return "Adds a clicking sound when you type";}
+	getAuthor() {return "Birb";}
+	getDescription() {return "Typing sound, much cool very wow";}
 
 	initConstructor() {}
 
