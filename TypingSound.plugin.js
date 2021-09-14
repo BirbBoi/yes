@@ -4,7 +4,7 @@ const audio = new Audio();
 class TypingSound
 {
 	getName() {return "Typing sound plugin";}
-	getVersion() {return "1.0";}
+	getVersion() {return "1.1";}
 	getAuthor() {return "Birb";}
 	getDescription() {return "Typing sound, much cool very wow";}
 
@@ -13,17 +13,7 @@ class TypingSound
 	load()
 	{
                    
-		audio.src = "https://raw.githubusercontent.com/BirbBoi/yes/main/key-press-1.wav";
-			
-			
-			addEventListener('keydown', function(event) {
-                           audio.pause();
-                           audio.currentTime = 0;
-                           audio.play();
-                           });
-    
-
-		
+		audio.src = "https://raw.githubusercontent.com/BirbBoi/yes/main/key-press-1.wav";	
 	}
 
 	unload()
@@ -34,7 +24,12 @@ class TypingSound
 
 	start()
 	{
-		
+		addEventListener('keydown', function(event) {
+                           audio.pause();
+                           audio.currentTime = 0;
+                           audio.play();
+                           });
+    
 	}
 
 	initialize()
@@ -55,6 +50,6 @@ class TypingSound
 
 	getChat()
 	{
-		l
+		
 	}
 }
